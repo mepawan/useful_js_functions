@@ -1,3 +1,8 @@
+
+
+String.prototype.replaceAll = function(f,r){return this.split(f).join(r);}
+
+
 /****** NUMERIC VALIDATION - jQuery *********/
 //jquery numeric validation while typing - only decimal, integer, value allowed to type
 jQuery('input.numeric').keydown(function(e){
